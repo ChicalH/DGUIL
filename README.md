@@ -103,15 +103,13 @@ python evaluate.py configs/kitti2stf/minkunet/DGUIL.yaml --checkpoint_path ./run
 ```
 
 ## Checkpoints
-We provide the checkpoints trained on SemanticKITTI->SemanticSTF. Download the model weights from the link: [Checkpoint Model](https://pan.baidu.com/s/1HF78YdB0r-VVI7wXqTxrmQ?pwd=krgq). And placer the model checkpoint in the checkpoint directory. 
-run:
+We provide the checkpoints trained on SemanticKITTI->SemanticSTF. Download the model weights from the link: [Checkpoint Model](https://pan.baidu.com/s/1HF78YdB0r-VVI7wXqTxrmQ?pwd=krgq). And placer the model checkpoint in the checkpoint directory, run:
 
 ```bash
 python evaluate.py configs/kitti2stf/minkunet/DGUIL.yaml --checkpoint_path ./checkpoint/DGUIL.pt
 ```
 
-If you want to evaluate DGUIL_minkunet34, please download the model weights from the [link](https://pan.baidu.com/s/1c_k6pCNtcwxQWE6XMJ-qkQ?pwd=kwsk). And placer the model checkpoint in the checkpoint directory. 
-run:
+If you want to evaluate DGUIL_minkunet34, please download the model weights from the [link](https://pan.baidu.com/s/1c_k6pCNtcwxQWE6XMJ-qkQ?pwd=kwsk). And placer the model checkpoint in the checkpoint directory, run:
 
 ```bash
 python evaluate.py configs/kitti2stf/minkunet/DGUIL_minkunet34.yaml --checkpoint_path ./checkpoint/DGUIL_minkunet34.pt
