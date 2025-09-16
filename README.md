@@ -5,6 +5,7 @@ This repository contains the official implementation of our paper **"Domain Gene
 
 ## Overview
 Domain generalization 3D segmentation aims to learn the point clouds with unknown distributions. Feature augmentation has been proven to be effective for domain generalization. However, each point of the 3D segmentation scene contains uncertainty in the target domain, which affects model generalization. This paper proposes the Domain Generalization-Aware Uncertainty Introspective Learning (DGUIL) method, including Potential Uncertainty Modeling (PUM) and Momentum Introspective Learning (MIL), to deal with the point uncertainty in domain shift. Specifically, PUM explores the underlying uncertain point cloud features and generates the different distributions for each point. The PUM enhances the point features over an adaptive range, which provides various information for simulating the distribution of the target domain. Then, MIL is designed to learn generalized feature representation in uncertain distributions. The MIL utilizes uncertainty correlation representation to measure the predicted divergence of knowledge accumulation, which learns to carefully judge and understand divergence through uncertainty introspection loss. Finally, extensive experiments verify the advantages of the proposed method over current state-of-the-art methods.
+![](resources/DGUIL_Framework.png)
 
 ## Setup Environment
 - Python 3.8
