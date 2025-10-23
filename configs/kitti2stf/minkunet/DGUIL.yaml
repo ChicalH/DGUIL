@@ -1,0 +1,15 @@
+model:
+  name: minkunet
+  intervention: True
+  nc: True
+  cr: 0.5
+  uncertain: True
+  lambda_v2: 0.0003
+  ema_model: True
+  uncermask: True
+
+optimizer:
+  lr: 2.4e-1
+
+num_epochs: 50
+batch_size: 4
